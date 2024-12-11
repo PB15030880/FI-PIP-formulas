@@ -10,7 +10,7 @@ Note that $i$, $j$ varies in $0,1,2,3,\cdots, N-1$ and the bondlength label vari
 ```
 temp = 0;
 for(i = 0; i < N; i++)
-  for(j = 0; j < N; j++)
+  for(j = i + 1; j < N; j++)
   {
     label[i, j] = temp;
     temp++;
