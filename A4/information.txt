@@ -1,0 +1,56 @@
+OrderMax:   10
+order:    1, prefix:        0, count:        1, FI count:        1, Non FI count:        0
+order:    2, prefix:        1, count:        3, FI count:        2, Non FI count:        1
+        time: 0.092041(ms)
+order:    3, prefix:        4, count:        6, FI count:        3, Non FI count:        3
+        time: 0.135986(ms)
+order:    4, prefix:       10, count:       11, FI count:        2, Non FI count:        9
+        time: 0.405029(ms)
+order:    5, prefix:       21, count:       18, FI count:        1, Non FI count:       17
+        time: 1.041016(ms)
+order:    6, prefix:       39, count:       32, FI count:        0, Non FI count:       32
+        time: 2.754150(ms)
+order:    7, prefix:       71, count:       48, FI count:        0, Non FI count:       48
+        time: 6.684814(ms)
+order:    8, prefix:      119, count:       75, FI count:        0, Non FI count:       75
+        time: 13.703125(ms)
+order:    9, prefix:      194, count:      111, FI count:        0, Non FI count:      111
+        time: 28.089111(ms)
+order:   10, prefix:      305, count:      160, FI count:        0, Non FI count:      160
+        time: 52.854004(ms)
+
+
+MoleculeAmount = 1, Mkind = 1
+M[0] = 0, <H2O>, Atom amount: 4
+AtomAmount = 4, Akind = 1
+A[0] = 0, <O> , belong to M[0]
+A[1] = 0, <O> , belong to M[0]
+A[2] = 0, <O> , belong to M[0]
+A[3] = 0, <O> , belong to M[0]
+MaxAtomAmount = 1027423549
+Formula[0], Mamount = 1
+        Atom[0] = 4
+M[0] = 0, <H2O>, Atom amount: 4
+        <0|0, <O>| 0>, <1|0, <O>| 0>, <2|0, <O>| 0>, <3|0, <O>| 0>
+Order = 10, AtomAmount = 4, SwapAmount = 3, PermutationAmount = 0
+           SwapAmount = 3
+Swap[0] = (0, 1)
+Swap[1] = (0, 2)
+Swap[2] = (0, 3)
+       PermutationAmount = 0
+Order = 10, Atom Amount = 4, Bond Amount = 6
+R[0] = (0, 1)
+R[1] = (0, 2)
+R[2] = (0, 3)
+R[3] = (1, 2)
+R[4] = (1, 3)
+R[5] = (2, 3)
+Permutation amount = 3
+Swap[0]
+        (0|0, 1|3, 2|4, 3|1, 4|2, 5|5)
+Swap[1]
+        (0|3, 1|1, 2|5, 3|0, 4|4, 5|2)
+Swap[2]
+        (0|4, 1|5, 2|2, 3|3, 4|0, 5|1)
+Amount of Order 1: 1
+No.0: x[0] + x[1] + x[2] + x[3] + x[4] + x[5]
